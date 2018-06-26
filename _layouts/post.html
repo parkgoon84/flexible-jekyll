@@ -32,7 +32,10 @@ layout: main
           {% endfor %}
         </div>
       </div>
-      {% include disqus.html %}
+      <!-- page 내부의 comments 가 false이면 화면에 노출되지 않음.-->
+      {% if page.comments %}
+        {% include disqus.html %}
+      {% endif %}
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
 </article> <!-- End Article Page -->
