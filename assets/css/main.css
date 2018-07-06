@@ -934,7 +934,7 @@ table tfoot td {
   height: 100%;
   padding: 20px 10px;
   background: #544a7d;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #ffd452 65%, #544a7d 35%);  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to top, #ffd452 35%, #544a7d 65%);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
